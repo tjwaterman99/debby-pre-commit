@@ -1,0 +1,8 @@
+- id: debby
+  name: Debby
+  description: A dbt linter for code quality
+  entry: debby run
+  language: python
+  files: \.(sql|yml|yaml)$
+  require_serial: false
+  additional_dependencies: ['debby-cli==0.0.8']
