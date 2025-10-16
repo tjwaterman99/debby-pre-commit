@@ -10,7 +10,9 @@ Then add the following content.
 
 ```yaml
 # .pre-commit-config.yaml
-- repo: local
+repos:
+- repo: https://www.github.com/tjwaterman99/debby-precommit
+  rev: v0.0.8
   hooks:
     - id: debby
 ```
