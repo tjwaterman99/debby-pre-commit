@@ -11,7 +11,7 @@ Then add the following content.
 ```yaml
 # .pre-commit-config.yaml
 repos:
-- repo: https://www.github.com/tjwaterman99/debby-precommit
+- repo: https://www.github.com/tjwaterman99/debby-pre-commit
   rev: v0.1.0
   hooks:
     - id: debby
