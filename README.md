@@ -12,7 +12,7 @@ Then add the following content.
 # .pre-commit-config.yaml
 repos:
 - repo: https://www.github.com/tjwaterman99/debby-pre-commit
-  rev: v0.2.0
+  rev: v0.2.1
   hooks:
     - id: debby
 ```
